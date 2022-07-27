@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>DATA TYPES</h3>
+    <ol>
+        <li>String	represents textual data	'hello' , "hello world!" etc</li>
+        <li>Number	an integer or a floating-point number	3 , 3.234 , 3e-2 etc.</li>
+        <li>BigInt	an integer with arbitrary precision	900719925124740999n , 1n etc.</li>
+        <li>Boolean	Any of two values: true or false	true and false</li>
+    </ol>
+
+
+    <h3>Declarations</h3>
+    <pre>
+        var
+            Declares a variable, optionally initializing it to a value.
+
+        let
+            Declares a block scope local variable, optionally initializing it to a value.
+
+        const
+            Declares a read-only named constant.
+
+    </pre>
+
+    <h4>Hoisting in JS</h4>
+       <pre>
+
+        hoisting is a default feature in JS than automatically pushes the function deleclaration at top so that it gets excuted before invocation
+                trex();
+            console.log(q);
+        
+            var q=21;
+        
+            function trex() {
+                console.log("Hello shinLord");
+            }
+        
+            
+            trex();
+            
+        note : hoisting is not possible in let and const
+
+        </pre>
+</body>
+</html>
